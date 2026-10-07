@@ -1,0 +1,37 @@
+P.S. | Cadence 0.2.0 - complete offline preview
+
+Install using Cadence-0.2.0-Windows11-x64-Offline-Setup.exe, then open P.S. Cadence
+from the Start menu. No Python, Node, PyTorch, CUDA Toolkit, account, or internet
+connection is required. All six voices and the speech model are included.
+
+Alternatively, keep this entire folder together and run Cadence.exe.
+The _internal folder contains required application and browser files.
+
+Supported platform: Windows 11 x64 (Intel/AMD). ARM64 is not supported.
+A compatible NVIDIA display driver is needed only for GPU acceleration.
+The package includes PyTorch 2.7.1 + CUDA 12.8. The CPU is used automatically
+when CUDA is unavailable, or after a GPU initialization/generation failure.
+
+Open a .txt or .md file, or use From clipboard. Press Play to prepare speech
+and start listening. The first passage can take longer while the engine loads.
+Prepare audio generates a complete reading; Export WAV saves prepared audio.
+
+Your library, settings, audio, exports and logs are stored under:
+%LOCALAPPDATA%\TTSReader
+Updating or uninstalling the application keeps these user files.
+The portable folder also uses this location; it does not move the user library.
+
+Speech assets and the browser runtime are fixed for this application release.
+There are no automatic model downloads, update checks, or online activation.
+Python dependencies are restricted to loopback networking for the local UI.
+Windows and graphics drivers remain system components outside this package.
+
+P.S. | Cadence is free software licensed under the GNU GPL, version 3 or later.
+See LICENSE. Third-party component licenses are listed in THIRD_PARTY_NOTICES.txt.
+
+This is an unsigned engineering preview. Before commercial distribution, complete
+the source-delivery and signing items in THIRD_PARTY_NOTICES.txt and validate on clean
+Windows 11 systems and the intended supported NVIDIA hardware.
+
+File checksums: SHA256SUMS.json
+Pinned dependency inventory: _internal\release-manifest.json

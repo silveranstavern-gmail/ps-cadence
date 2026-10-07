@@ -1,0 +1,42 @@
+# Python environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Node / UI build
+node_modules/
+ui-dist/
+
+# Build inputs, tools and outputs
+build/
+dist/
+vendor/
+.build-tools/
+*.log
+
+# Local app data (reader library, audio, test runs)
+.reader-data/
+
+# Secrets and signing material
+.env
+.env.*
+*.pfx
+*.p12
+*.pvk
+*.snk
+*.key
+*.pem
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store

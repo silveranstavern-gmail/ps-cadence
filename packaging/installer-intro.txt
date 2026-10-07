@@ -1,0 +1,9 @@
+P.S. | Cadence
+
+This complete offline installer includes all six voices, the speech model, and the software needed to run Cadence. No Python installation, account, or internet connection is required.
+
+Cadence uses compatible NVIDIA graphics automatically and can also generate speech on your CPU. All included voices work without an internet connection.
+
+Your readings, settings, and generated audio are saved separately from the application. Updating or uninstalling Cadence keeps that library.
+
+This preview is unsigned. See THIRD_PARTY_NOTICES.txt in the installed folder for bundled component licenses and the commercial-release review status.

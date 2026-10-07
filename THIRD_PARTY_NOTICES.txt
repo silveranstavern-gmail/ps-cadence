@@ -1,0 +1,40 @@
+P.S. | Cadence - third-party components
+
+This package includes open-source software and Microsoft/NVIDIA redistributables.
+Each component retains its own copyright and license. See licenses/ and
+_internal/release-manifest.json for the pinned component inventory.
+
+Kokoro 0.9.4 and Kokoro-82M: Apache-2.0
+https://github.com/hexgrad/kokoro
+https://huggingface.co/hexgrad/Kokoro-82M
+Model revision: f3ff3571791e39611d31c381e3a41a3af07b4987
+
+Misaki 0.9.4: Apache-2.0
+https://github.com/hexgrad/misaki
+
+phonemizer-fork 3.3.2: GPL-3.0-or-later
+https://github.com/thewh1teagle/phonemizer
+eSpeak NG (via espeakng-loader 0.2.4): GPL-3.0-or-later
+https://github.com/espeak-ng/espeak-ng
+https://github.com/thewh1teagle/espeakng-loader
+
+SoundFile uses libsndfile, distributed under the LGPL. Its license and the
+licenses supplied by its wheel are included. PyTorch's license directory also
+contains licenses for its bundled CUDA and other native libraries.
+
+Microsoft WebView2 Fixed Version Runtime is redistributed under Microsoft's
+WebView2 runtime terms, included in licenses/upstream. It is not automatically
+updated by Cadence. NVIDIA runtime libraries retain their supplied terms.
+
+APPLICATION LICENSE
+P.S. | Cadence is Copyright (C) 2026 Pondering Silver and is licensed under the
+GNU General Public License, version 3 or (at your option) any later version.
+See LICENSE for the full terms. Third-party components listed above keep their
+own licenses.
+
+COMMERCIAL RELEASE STATUS
+This is a local engineering preview. Selling GPL software is permitted, but each
+customer must receive the license and access to the Corresponding Source for the
+exact binaries distributed. Before external commercial distribution, publish or
+deliver that source, review all third-party redistribution terms, and sign the
+installer and application.

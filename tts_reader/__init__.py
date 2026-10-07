@@ -1,0 +1,1 @@
+"""Local Kokoro reader."""
