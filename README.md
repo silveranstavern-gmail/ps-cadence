@@ -191,6 +191,15 @@ and uninstalls while checking that the reading library is preserved. It refuses
 to run if Cadence is already registered as installed for the current Windows user;
 use a separate test account in that case.
 
+## Support
+
+If P.S. | Cadence is useful to you, you can support its development:
+
+- [Donate with Stripe](https://donate.stripe.com/eVa4hvd8sfNx0Pm4gg)
+- [Donate with PayPal](https://www.paypal.com/donate/?business=5XBKNVSRQXEYU&no_recurring=0&currency_code=USD)
+
+More ways to help are on the [Pondering Silver support page](https://ponderingsilver.com/support/).
+
 ## License
 
 Copyright (C) 2026 Pondering Silver.
